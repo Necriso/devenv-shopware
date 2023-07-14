@@ -363,7 +363,7 @@ in {
 
     services.mysql = {
       enable = lib.mkDefault true;
-      package = lib.mkDefault pkgs.mysql80;
+      package = lib.mkDefault pkgs.mariadb_1011;
       initialDatabases = lib.mkDefault [{ name = "shopware"; }];
       ensureUsers = lib.mkDefault [{
         name = "shopware";
