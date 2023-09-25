@@ -355,6 +355,7 @@ in {
               format console
               level ERROR
             }
+            tls .devenv/state/mkcert/localhost.pem .devenv/state/mkcert/localhost-key.pem
           ''
           cfg.additionalVhostConfig
         ];

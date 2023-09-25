@@ -3,7 +3,7 @@ imports:
   - kellerkinder
 inputs:
   kellerkinder:
-    url: git+https://github.com/kellerkinderDE/devenv-shopware
+    url: git+https://github.com/Necriso/devenv-shopware
     flake: false
   phps:
     url: github:fossar/nix-phps
