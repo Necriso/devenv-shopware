@@ -307,7 +307,7 @@ in {
           auto_https disable_redirects
         }
       '';
-      virtualHosts."127.0.0.1:8000" = lib.mkDefault {
+      virtualHosts."127.0.0.1:8064" = lib.mkDefault {
         serverAliases = cfg.additionalServerAlias;
         extraConfig = lib.strings.concatStrings [
           ''
